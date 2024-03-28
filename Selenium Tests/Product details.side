@@ -1,0 +1,197 @@
+{
+  "id": "3d8011e2-993b-4ce0-ab4b-b38d9da3d857",
+  "version": "2.0",
+  "name": "Product details",
+  "url": " https://www.homedepot.ca/",
+  "tests": [{
+    "id": "4a99b751-99c1-4eba-8672-ec4bab72e472",
+    "name": "Product detail of Chamberlain 3/4 HP, SKU# 1001631246",
+    "commands": [{
+      "id": "02a407ba-789c-4868-a866-7a94aa552176",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.homedepot.ca/en/home.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f455c5b9-8946-450e-ba6b-7763edc2cee5",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//input",
+      "targets": [
+        ["id=id7852", "id"],
+        ["css=#id7852", "css:finder"],
+        ["xpath=//input[@id='id7852']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "80e96b4b-a314-4ff8-a573-8f59bc0021b5",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//input",
+      "targets": [
+        ["id=id7852", "id"],
+        ["css=#id7852", "css:finder"],
+        ["xpath=//input[@id='id7852']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "1001631246"
+    }, {
+      "id": "09a36dbc-9eeb-4897-a942-98dbd9b36ff2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-action-button",
+      "targets": [
+        ["css=.acl-action-button", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//acl-input-action-button-container/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Submit Search')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3e9e04a5-93a9-4d65-9f37-c5fa3f6e9e51",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.hdca-product__description-title-manufacturer",
+      "targets": [
+        ["css=.hdca-product__description-title-manufacturer", "css:finder"],
+        ["xpath=//h1/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Chamberlain ')]", "xpath:innerText"]
+      ],
+      "value": "Chamberlain"
+    }, {
+      "id": "b5488983-88e7-4d12-8567-77a00689ec4d",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.hdca-product__description-pricing-price-value",
+      "targets": [
+        ["css=.hdca-product__description-pricing-price-value", "css:finder"],
+        ["xpath=//div[2]/div/p/span", "xpath:position"],
+        ["xpath=//span[contains(.,'$388.00')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b8d6f8db-14ed-46c5-a102-6eb71297a22d",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.acl-icon--size--medium use",
+      "targets": [
+        ["css=.acl-icon--size--medium use", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "c6b8b80e-12b0-46f8-9ac0-3304be416e12",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=//input",
+      "targets": [
+        ["id=id7861", "id"],
+        ["css=#id7861", "css:finder"],
+        ["xpath=//input[@id='id7861']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "db11bb57-b63a-4bab-b3e9-5a2e5325b460",
+    "name": "Product detail of Husky 16 lb. Sledge Hammer, SKU# 1001631246",
+    "commands": [{
+      "id": "cc9329a2-a1ee-47ee-a83f-074d1112cadd",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.homedepot.ca/en/home.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "11e48d1b-9586-4ced-8ea6-4b2c4c9f9383",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//input",
+      "targets": [
+        ["id=id7852", "id"],
+        ["css=#id7852", "css:finder"],
+        ["xpath=//input[@id='id7852']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "736f6f81-04f7-4dcc-b026-6f25e2c19bf3",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//input",
+      "targets": [
+        ["id=id7852", "id"],
+        ["css=#id7852", "css:finder"],
+        ["xpath=//input[@id='id7852']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "1001022652"
+    }, {
+      "id": "b72cab9c-56ba-4a74-8c2b-475c398d2bb4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-action-button",
+      "targets": [
+        ["css=.acl-action-button", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//acl-input-action-button-container/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Submit Search')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f04abe3f-7714-4f33-916b-0fb94fe8cc92",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.hdca-product__description-title-manufacturer",
+      "targets": [
+        ["css=.hdca-product__description-title-manufacturer", "css:finder"],
+        ["xpath=//h1/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Chamberlain ')]", "xpath:innerText"]
+      ],
+      "value": "Husky"
+    }, {
+      "id": "c2a45f7f-56d5-4e02-af44-d2a2ecd5c042",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.hdca-product__description-pricing-price-value",
+      "targets": [
+        ["css=.hdca-product__description-pricing-price-value", "css:finder"],
+        ["xpath=//div[2]/div/p/span", "xpath:position"],
+        ["xpath=//span[contains(.,'$388.00')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "11980c38-1833-472b-aa22-a1e2c27baaa0",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.acl-icon--size--medium use",
+      "targets": [
+        ["css=.acl-icon--size--medium use", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "fe8bc31a-007a-4505-b11c-67c1c69988c6",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=//input",
+      "targets": [
+        ["id=id7861", "id"],
+        ["css=#id7861", "css:finder"],
+        ["xpath=//input[@id='id7861']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "1ecb0d0b-c8eb-4cb7-b727-107e5f3d6566",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["4a99b751-99c1-4eba-8672-ec4bab72e472"]
+  }],
+  "urls": ["https://www.homedepot.ca/"],
+  "plugins": []
+}

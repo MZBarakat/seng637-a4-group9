@@ -1,0 +1,161 @@
+{
+  "id": "67504602-ead6-4b61-9d9f-5ea01da4321c",
+  "version": "2.0",
+  "name": "Searching a product by name",
+  "url": "https://www.homedepot.ca/",
+  "tests": [{
+    "id": "a6a48946-d217-4469-bbc6-aec6abbf59d5",
+    "name": "Search for sledge hammer",
+    "commands": [{
+      "id": "bd2f8cdf-8ff0-49da-9133-3d572d8f1396",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.homedepot.ca/en/home.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d144cf77-614d-4563-88dd-1ae7a6f05c03",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//input",
+      "targets": [
+        ["id=id9805", "id"],
+        ["css=#id9805", "css:finder"],
+        ["xpath=//input[@id='id9805']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "873e33cc-fc2c-4e88-9dd2-594c550b4b53",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//input",
+      "targets": [
+        ["id=id9805", "id"],
+        ["css=#id9805", "css:finder"],
+        ["xpath=//input[@id='id9805']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "sledge hammer"
+    }, {
+      "id": "8f6f9ad5-3fa8-4105-ab77-48088e8e6d2f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-action-button__icon > svg",
+      "targets": [
+        ["css=.acl-action-button__icon > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "b1378294-6844-4f54-9c08-16ce29ade4ec",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.acl-icon--size--medium use",
+      "targets": [
+        ["css=.acl-icon--size--medium use", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "33118a31-d491-499a-b539-927d2777b739",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=//input",
+      "targets": [
+        ["id=id9628", "id"],
+        ["css=#id9628", "css:finder"],
+        ["xpath=//input[@id='id9628']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "85b970b4-6026-44fe-ac84-9903b76d20cb",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Sledgehammers - Hammers - Homedepot.ca",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "a7ce4456-cfd2-42cf-9f7c-2fa7926b0bd3",
+    "name": "Search for garage door opener",
+    "commands": [{
+      "id": "07ba200b-f450-40c4-bbc0-65901a35c3b8",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.homedepot.ca/en/home.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "716de0e5-a7ea-452c-aaa2-04fe5adf3725",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//input",
+      "targets": [
+        ["id=id5116", "id"],
+        ["css=#id5116", "css:finder"],
+        ["xpath=//input[@id='id5116']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "af5635f5-9969-41e3-bc1d-470ec23e1e68",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//input",
+      "targets": [
+        ["id=id5116", "id"],
+        ["css=#id5116", "css:finder"],
+        ["xpath=//input[@id='id5116']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "garage door opener"
+    }, {
+      "id": "8abf87da-b085-4d02-9810-b5fb322d6c95",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-action-button__icon > svg",
+      "targets": [
+        ["css=.acl-action-button__icon > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "975cc97d-2d60-403d-9910-2d8b64d2d348",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.acl-icon--size--medium use",
+      "targets": [
+        ["css=.acl-icon--size--medium use", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "31e9a9ed-3400-4aa6-a786-9ae7ae84b66a",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=//input",
+      "targets": [
+        ["id=id1025", "id"],
+        ["css=#id1025", "css:finder"],
+        ["xpath=//input[@id='id1025']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "118b33b4-79f9-4b5f-a112-c06a2db5b34d",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Garage Door Openers, Garage Door Motors & Kits - Homedepot.ca",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "87529e3c-91cb-46e5-92ae-38fe3ea02389",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://www.homedepot.ca/"],
+  "plugins": []
+}

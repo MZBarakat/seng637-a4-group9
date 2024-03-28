@@ -1,0 +1,255 @@
+{
+  "id": "cf1925c4-2b47-47fd-a2bf-eb7cc6f2f40e",
+  "version": "2.0",
+  "name": "Increase item count",
+  "url": "https://www.homedepot.ca/",
+  "tests": [{
+    "id": "121ceb85-559f-4f2e-a2c6-522f329d73c2",
+    "name": "Increase count of Husky 16 lb. Sledge Hammer, SKU# 1001022652 from 1 to 2",
+    "commands": [{
+      "id": "538b24fb-0e1a-4238-954e-210177416fb0",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.homedepot.ca/en/home.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "30000edc-117a-4c96-a03c-3c556d5cf8d6",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//input",
+      "targets": [
+        ["id=id7498", "id"],
+        ["css=#id7498", "css:finder"],
+        ["xpath=//input[@id='id7498']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b92fea09-458a-4c90-b4b5-bf20527a7da6",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//input",
+      "targets": [
+        ["id=id7498", "id"],
+        ["css=#id7498", "css:finder"],
+        ["xpath=//input[@id='id7498']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "1001022652"
+    }, {
+      "id": "7c56a791-399d-41be-a803-f32b5725d2cf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-action-button__icon > svg",
+      "targets": [
+        ["css=.acl-action-button__icon > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "6a3c3867-ee74-4000-bec0-ea0912a278a6",
+      "comment": "",
+      "command": "click",
+      "target": "id=product-atc",
+      "targets": [
+        ["id=product-atc", "id"],
+        ["css=#product-atc", "css:finder"],
+        ["xpath=//button[@id='product-atc']", "xpath:attributes"],
+        ["xpath=//div[@id='productFulfillmentStickyATC']/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Add To Cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b03d9595-2feb-41eb-8f67-083fcb7d9ec4",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[@id='topOfPanelRef']/div[3]/div/div[2]/button",
+      "targets": [
+        ["css=.acl-button:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='topOfPanelRef']/div[3]/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'View Cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4bd45cd2-5e0a-41ea-8ce8-18339c41e241",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-select",
+      "targets": [
+        ["css=.acl-select", "css:finder"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8ff5c2d9-863d-42a0-9245-d0a97da2f4b9",
+      "comment": "",
+      "command": "select",
+      "target": "css=.acl-select",
+      "targets": [],
+      "value": "label=2"
+    }, {
+      "id": "6a4944e3-7501-4b6a-9cee-3eb04871ae3b",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=//span[contains(.,'2 item(s)')]",
+      "targets": [
+        ["css=.acl-weight--regular:nth-child(1)", "css:finder"],
+        ["xpath=//h1/span", "xpath:position"],
+        ["xpath=//span[contains(.,'2 item(s)')]", "xpath:innerText"]
+      ],
+      "value": "2 item(s)"
+    }, {
+      "id": "f86d3072-b340-426e-a495-6c71283badde",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=a > .acl-icon--size--medium use",
+      "targets": [
+        ["css=a > .acl-icon--size--medium use", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "95cf5e4e-e2da-488b-a8fe-cb75885281cc",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=//input",
+      "targets": [
+        ["id=id6539", "id"],
+        ["css=#id6539", "css:finder"],
+        ["xpath=//input[@id='id6539']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "1a02111e-6d7c-4bee-ac70-7d6e95f1f3d2",
+    "name": "Increase count of Chamberlain 3/4 HP, SKU# 1001631246 to cart from 1 to 2",
+    "commands": [{
+      "id": "c22707bc-05f6-496f-a3fc-b43d7e842521",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.homedepot.ca/en/home.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5ff60de9-58d9-4d14-8b7c-d0348b597dfd",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//input",
+      "targets": [
+        ["id=id7498", "id"],
+        ["css=#id7498", "css:finder"],
+        ["xpath=//input[@id='id7498']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "316dc374-fe30-43ab-99e8-ee9c2c70b0f2",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//input",
+      "targets": [
+        ["id=id7498", "id"],
+        ["css=#id7498", "css:finder"],
+        ["xpath=//input[@id='id7498']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "1001631246"
+    }, {
+      "id": "7d761607-e5f6-430a-a5dc-48fa75cdf00d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-action-button__icon > svg",
+      "targets": [
+        ["css=.acl-action-button__icon > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "c3e1d8e9-b57c-45b0-a94b-ae994fa25d3e",
+      "comment": "",
+      "command": "click",
+      "target": "id=product-atc",
+      "targets": [
+        ["id=product-atc", "id"],
+        ["css=#product-atc", "css:finder"],
+        ["xpath=//button[@id='product-atc']", "xpath:attributes"],
+        ["xpath=//div[@id='productFulfillmentStickyATC']/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Add To Cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9141a9d1-cf84-4101-ac0a-f2058190635f",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[@id='topOfPanelRef']/div[3]/div/div[2]/button",
+      "targets": [
+        ["css=.acl-button:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='topOfPanelRef']/div[3]/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'View Cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "484699ed-012a-4905-88a7-11d09314ca06",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-select",
+      "targets": [
+        ["css=.acl-select", "css:finder"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "53ed1ca4-60aa-463c-880d-9b7b5f064f07",
+      "comment": "",
+      "command": "select",
+      "target": "css=.acl-select",
+      "targets": [],
+      "value": "label=2"
+    }, {
+      "id": "448152bf-05bf-4b8c-84b8-44110569069f",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=//span[contains(.,'2 item(s)')]",
+      "targets": [
+        ["css=.acl-weight--regular:nth-child(1)", "css:finder"],
+        ["xpath=//h1/span", "xpath:position"],
+        ["xpath=//span[contains(.,'2 item(s)')]", "xpath:innerText"]
+      ],
+      "value": "2 item(s)"
+    }, {
+      "id": "f116f319-6544-4798-8b39-2c69e06f1575",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=a > .acl-icon--size--medium use",
+      "targets": [
+        ["css=a > .acl-icon--size--medium use", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "aa132d36-49f6-4e6e-84f4-fa225367a351",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=//input",
+      "targets": [
+        ["id=id6539", "id"],
+        ["css=#id6539", "css:finder"],
+        ["xpath=//input[@id='id6539']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "e74ce95d-8a75-4e16-ae23-dc28976d17e7",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["121ceb85-559f-4f2e-a2c6-522f329d73c2"]
+  }],
+  "urls": ["https://www.homedepot.ca/"],
+  "plugins": []
+}

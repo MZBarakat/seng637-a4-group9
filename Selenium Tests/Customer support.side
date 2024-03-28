@@ -1,0 +1,144 @@
+{
+  "id": "319ec089-f62a-427d-b3ef-2e6b927f2b6a",
+  "version": "2.0",
+  "name": "Customer support",
+  "url": "https://www.homedepot.ca/",
+  "tests": [{
+    "id": "811a8224-e07f-49f8-afeb-ff65a670d28c",
+    "name": "Click on customer support link via the navigation bar",
+    "commands": [{
+      "id": "6d45c56c-9d35-40bc-93cb-82c4913717d9",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.homedepot.ca/en/home.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "382aeaaa-a19e-4303-a946-ceaae1925b65",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Customer Support",
+      "targets": [
+        ["linkText=Customer Support", "linkText"],
+        ["css=.acl-list-item:nth-child(5) > .acl-text-size--small", "css:finder"],
+        ["xpath=//a[contains(text(),'Customer Support')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/en/home/customer-support.html')]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Customer Support')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "eb904766-f641-46d5-89e6-65a4dd15bf32",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Customer Support - Homedepot.ca",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b39b8e5e-24ce-419b-94b7-0471c2be5ce5",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.hdca-cms-rich-text:nth-child(9) > h2",
+      "targets": [
+        ["css=.hdca-cms-rich-text:nth-child(9) > h2", "css:finder"],
+        ["xpath=//div[9]/h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Call Us')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "611aa2af-4dc1-405b-8072-e31791824d24",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=//input",
+      "targets": [
+        ["id=id8987", "id"],
+        ["css=#id8987", "css:finder"],
+        ["xpath=//input[@id='id8987']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "444b9a92-978b-405f-b6dc-f64594353d1c",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.acl-icon--size--medium use",
+      "targets": [
+        ["css=.acl-icon--size--medium use", "css:finder"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "7bf063c2-a05e-4da2-91e5-00617fc0f7e2",
+    "name": "Click on customer support link via the link in the footer",
+    "commands": [{
+      "id": "f78cd63f-eab6-4608-9b10-ab14b13aa8ee",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.homedepot.ca/en/home.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d067e5d2-5635-410c-9e33-54c9a795bbad",
+      "comment": "",
+      "command": "click",
+      "target": "css=#footer2 .hdca-footer-links__list-item:nth-child(1) > .hdca-footer-links__list-link",
+      "targets": [
+        ["css=#footer2 .hdca-footer-links__list-item:nth-child(1) > .hdca-footer-links__list-link", "css:finder"],
+        ["xpath=(//a[contains(text(),'Customer Support')])[3]", "xpath:link"],
+        ["xpath=//section[@id='footer2']/ol/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/en/home/customer-support.html')])[3]", "xpath:href"],
+        ["xpath=//section[2]/ol/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fe7ea959-3fe3-490a-9558-8a75bf486715",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Customer Support - Homedepot.ca",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "725d7a46-219f-42eb-b3f3-670cbb7c5b5b",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.hdca-cms-rich-text:nth-child(9) > h2",
+      "targets": [
+        ["css=.hdca-cms-rich-text:nth-child(9) > h2", "css:finder"],
+        ["xpath=//div[9]/h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Call Us')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "71151ca4-8da4-4e5d-8cff-c101191c72d7",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.acl-icon--size--medium use",
+      "targets": [
+        ["css=.acl-icon--size--medium use", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "56aea5e9-7f30-47f0-8508-35723d3044d5",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=//input",
+      "targets": [
+        ["id=id6049", "id"],
+        ["css=#id6049", "css:finder"],
+        ["xpath=//input[@id='id6049']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "83947755-d61d-4715-82fe-9df17b4203a8",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["811a8224-e07f-49f8-afeb-ff65a670d28c"]
+  }],
+  "urls": ["https://www.homedepot.ca/"],
+  "plugins": []
+}

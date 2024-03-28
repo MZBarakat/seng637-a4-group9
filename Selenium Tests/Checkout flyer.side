@@ -1,0 +1,156 @@
+{
+  "id": "ad54f8b6-85a9-4c47-887f-6422e34d76ad",
+  "version": "2.0",
+  "name": "Checkout flyer",
+  "url": "https://www.homedepot.ca/",
+  "tests": [{
+    "id": "b6769574-c089-48fb-a49f-d6be8616cbdf",
+    "name": "Checkout weekly flyer from navigation bar",
+    "commands": [{
+      "id": "8fdd08d7-8d6b-4511-a112-e1b85bbb5927",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.homedepot.ca/en/home.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d75d235f-4917-4363-9b5d-83a20cb3f356",
+      "comment": "",
+      "command": "click",
+      "target": "css=#navnode_000003UXContainer .acl-main-nav-item__label",
+      "targets": [
+        ["css=#navnode_000003UXContainer .acl-main-nav-item__label", "css:finder"],
+        ["xpath=//acl-main-nav-item[@id='navnode_000003UXContainer']/a/span", "xpath:idRelative"],
+        ["xpath=//li[6]/acl-main-nav-item/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Weekly Flyer')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "92671ba5-511b-481c-ac02-86046c55a6a9",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Weekly Flyer | The Home Depot Canada",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "21029d6d-a971-439b-bddd-5246389e9856",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=//input",
+      "targets": [
+        ["id=id738", "id"],
+        ["css=#id738", "css:finder"],
+        ["xpath=//input[@id='id738']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fb112427-01bf-4f01-8106-b4d0a88ca4a5",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.acl-icon--size--medium use",
+      "targets": [
+        ["css=.acl-icon--size--medium use", "css:finder"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "18ce8dcc-97ba-42fb-b307-20f117d8a941",
+    "name": "Checkout weekly flyer from navigation bar after changing the store location",
+    "commands": [{
+      "id": "5865d78d-86b5-457a-877b-ca157b1d82e2",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.homedepot.ca/en/home.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f30f9928-3bee-4e61-a77a-111db195c38d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-store-hours-menu__info-title",
+      "targets": [
+        ["css=.acl-store-hours-menu__info-title", "css:finder"],
+        ["xpath=//div[@id='acl-store-hours-menu__wrapper']/div[2]/h6", "xpath:idRelative"],
+        ["xpath=//h6", "xpath:position"],
+        ["xpath=//h6[contains(.,'Calgary North Hill')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "45f7b784-5acd-45b0-9680-cd4e5b90ee54",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Change Store",
+      "targets": [
+        ["linkText=Change Store", "linkText"],
+        ["css=.acl-store-info__link", "css:finder"],
+        ["xpath=//a[contains(text(),'Change Store')]", "xpath:link"],
+        ["xpath=//acl-dropdown[@id='global-header-store-hours-menu-dropdown']/div[3]/div/section/acl-store-info/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'javascript:void(0)')]", "xpath:href"],
+        ["xpath=//acl-store-info/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Change Store')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1cadaf8f-916f-4187-9856-0a487c3a5639",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hdca-store-list-item:nth-child(2) .acl-button--theme--primary > .acl-button__label",
+      "targets": [
+        ["css=.hdca-store-list-item:nth-child(2) .acl-button--theme--primary > .acl-button__label", "css:finder"],
+        ["xpath=//div[2]/div[3]/div/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "563eb809-94ed-483b-95e9-93e23acd40a2",
+      "comment": "",
+      "command": "click",
+      "target": "css=#navnode_000003UXContainer .acl-main-nav-item__label",
+      "targets": [
+        ["css=#navnode_000003UXContainer .acl-main-nav-item__label", "css:finder"],
+        ["xpath=//acl-main-nav-item[@id='navnode_000003UXContainer']/a/span", "xpath:idRelative"],
+        ["xpath=//li[6]/acl-main-nav-item/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Weekly Flyer')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "309a5d85-d97a-4f0b-b1f2-d64f8fec7f8b",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Weekly Flyer | The Home Depot Canada",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "df7848f1-f8d4-43a4-809d-52328fa438ee",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.acl-icon--size--medium use",
+      "targets": [
+        ["css=.acl-icon--size--medium use", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "e5859a37-c815-43e0-b67d-82f43fbadea6",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=//input",
+      "targets": [
+        ["id=id1368", "id"],
+        ["css=#id1368", "css:finder"],
+        ["xpath=//input[@id='id1368']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "e40617c9-51e8-4176-b17b-783a0443e372",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["b6769574-c089-48fb-a49f-d6be8616cbdf"]
+  }],
+  "urls": ["https://www.homedepot.ca/"],
+  "plugins": []
+}

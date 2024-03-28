@@ -1,0 +1,267 @@
+{
+  "id": "a9f0c2df-e2c6-4fb5-b42d-f2ad03b39055",
+  "version": "2.0",
+  "name": "Login",
+  "url": "https://www.homedepot.ca/",
+  "tests": [{
+    "id": "860410f7-f720-45a2-9517-6ac1bad32546",
+    "name": "Login with an invalid credentials",
+    "commands": [{
+      "id": "578f0f1b-2175-422b-b8b5-2e6d615cfe12",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.homedepot.ca/en/home.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "72d49698-12bf-4433-bffa-d7c6dbabdd30",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Account / Sign In",
+      "targets": [
+        ["linkText=Account / Sign In", "linkText"],
+        ["css=global-header-account > .acl-bold-hover", "css:finder"],
+        ["xpath=//global-header-account/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Account / Sign In')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e7b0a258-5970-4880-970f-abe2e8bcee76",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=//acl-dropdown[@id='global-header-account-menu-dropdown']/div[3]/div/global-header-account-menu-container/global-header-account-menu-guest/div/form/acl-input-container/div[2]/div/input",
+      "targets": [
+        ["id=id4828", "id"],
+        ["css=#id4828", "css:finder"],
+        ["xpath=//input[@id='id4828']", "xpath:attributes"],
+        ["xpath=//acl-dropdown[@id='global-header-account-menu-dropdown']/div[3]/div/global-header-account-menu-container/global-header-account-menu-guest/div/form/acl-input-container/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//acl-input-container/div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bf91a4ef-8b50-4cfc-a31f-a60dad7b45d0",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=//acl-dropdown[@id='global-header-account-menu-dropdown']/div[3]/div/global-header-account-menu-container/global-header-account-menu-guest/div/form/acl-password-container/div[2]/div/input",
+      "targets": [
+        ["id=id1540", "id"],
+        ["css=#id1540", "css:finder"],
+        ["xpath=//input[@id='id1540']", "xpath:attributes"],
+        ["xpath=//acl-dropdown[@id='global-header-account-menu-dropdown']/div[3]/div/global-header-account-menu-container/global-header-account-menu-guest/div/form/acl-password-container/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//acl-password-container/div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "727c7dda-b1d0-446e-82ac-15ba390d04b1",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//acl-dropdown[@id='global-header-account-menu-dropdown']/div[3]/div/global-header-account-menu-container/global-header-account-menu-guest/div/form/acl-input-container/div[2]/div/input",
+      "targets": [
+        ["id=id4828", "id"],
+        ["css=#id4828", "css:finder"],
+        ["xpath=//input[@id='id4828']", "xpath:attributes"],
+        ["xpath=//acl-dropdown[@id='global-header-account-menu-dropdown']/div[3]/div/global-header-account-menu-container/global-header-account-menu-guest/div/form/acl-input-container/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//acl-input-container/div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ac476639-f076-4aa4-8538-176ccc1cc9fa",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//acl-dropdown[@id='global-header-account-menu-dropdown']/div[3]/div/global-header-account-menu-container/global-header-account-menu-guest/div/form/acl-input-container/div[2]/div/input",
+      "targets": [
+        ["id=id4828", "id"],
+        ["css=#id4828", "css:finder"],
+        ["xpath=//input[@id='id4828']", "xpath:attributes"],
+        ["xpath=//acl-dropdown[@id='global-header-account-menu-dropdown']/div[3]/div/global-header-account-menu-container/global-header-account-menu-guest/div/form/acl-input-container/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//acl-input-container/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "Williamsid99@gmail.com"
+    }, {
+      "id": "c9915ac7-6734-4230-abd9-13a1f37e2971",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//acl-dropdown[@id='global-header-account-menu-dropdown']/div[3]/div/global-header-account-menu-container/global-header-account-menu-guest/div/form/acl-password-container/div[2]/div/input",
+      "targets": [
+        ["id=id1540", "id"],
+        ["css=#id1540", "css:finder"],
+        ["xpath=//input[@id='id1540']", "xpath:attributes"],
+        ["xpath=//acl-dropdown[@id='global-header-account-menu-dropdown']/div[3]/div/global-header-account-menu-container/global-header-account-menu-guest/div/form/acl-password-container/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//acl-password-container/div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b206d6dd-64e4-425f-bb78-c6806f77fc67",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//acl-dropdown[@id='global-header-account-menu-dropdown']/div[3]/div/global-header-account-menu-container/global-header-account-menu-guest/div/form/acl-password-container/div[2]/div/input",
+      "targets": [
+        ["id=id1540", "id"],
+        ["css=#id1540", "css:finder"],
+        ["xpath=//input[@id='id1540']", "xpath:attributes"],
+        ["xpath=//acl-dropdown[@id='global-header-account-menu-dropdown']/div[3]/div/global-header-account-menu-container/global-header-account-menu-guest/div/form/acl-password-container/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//acl-password-container/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "abc"
+    }, {
+      "id": "47b3da9d-9267-4cc7-a66e-2fcecd496322",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-button--theme--primary",
+      "targets": [
+        ["css=.acl-button--theme--primary", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//acl-dropdown[@id='global-header-account-menu-dropdown']/div[3]/div/global-header-account-menu-container/global-header-account-menu-guest/div/form/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Sign In')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "927589db-9c6e-4998-a4fa-8380a9b6640c",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.acl-alert__message",
+      "targets": [
+        ["css=.acl-alert__message", "css:finder"],
+        ["xpath=//acl-dropdown[@id='global-header-account-menu-dropdown']/div[3]/div/global-header-account-menu-container/global-header-account-menu-guest/div/div/section/header/div", "xpath:idRelative"],
+        ["xpath=//section/header/div", "xpath:position"]
+      ],
+      "value": "30000"
+    }]
+  }, {
+    "id": "4c7a8a32-6ae2-4d17-a84b-4b34d88de781",
+    "name": "Login with a valid credentials",
+    "commands": [{
+      "id": "be208dfe-2c73-4d8b-ac08-1221536ea4f7",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.homedepot.ca/en/home.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "93365c91-f1ee-4704-92e4-435fb0838fe3",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Account / Sign In",
+      "targets": [
+        ["linkText=Account / Sign In", "linkText"],
+        ["css=global-header-account > .acl-bold-hover", "css:finder"],
+        ["xpath=//global-header-account/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Account / Sign In')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6d14237c-2a74-4566-82a3-22d3ea4e2c58",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=//acl-dropdown[@id='global-header-account-menu-dropdown']/div[3]/div/global-header-account-menu-container/global-header-account-menu-guest/div/form/acl-input-container/div[2]/div/input",
+      "targets": [
+        ["id=id4828", "id"],
+        ["css=#id4828", "css:finder"],
+        ["xpath=//input[@id='id4828']", "xpath:attributes"],
+        ["xpath=//acl-dropdown[@id='global-header-account-menu-dropdown']/div[3]/div/global-header-account-menu-container/global-header-account-menu-guest/div/form/acl-input-container/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//acl-input-container/div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b55a7bc7-9e63-4aa0-84c8-802012fefcfe",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=//acl-dropdown[@id='global-header-account-menu-dropdown']/div[3]/div/global-header-account-menu-container/global-header-account-menu-guest/div/form/acl-password-container/div[2]/div/input",
+      "targets": [
+        ["id=id1540", "id"],
+        ["css=#id1540", "css:finder"],
+        ["xpath=//input[@id='id1540']", "xpath:attributes"],
+        ["xpath=//acl-dropdown[@id='global-header-account-menu-dropdown']/div[3]/div/global-header-account-menu-container/global-header-account-menu-guest/div/form/acl-password-container/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//acl-password-container/div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d98972a5-259d-469b-8363-065982964569",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//acl-dropdown[@id='global-header-account-menu-dropdown']/div[3]/div/global-header-account-menu-container/global-header-account-menu-guest/div/form/acl-input-container/div[2]/div/input",
+      "targets": [
+        ["id=id4828", "id"],
+        ["css=#id4828", "css:finder"],
+        ["xpath=//input[@id='id4828']", "xpath:attributes"],
+        ["xpath=//acl-dropdown[@id='global-header-account-menu-dropdown']/div[3]/div/global-header-account-menu-container/global-header-account-menu-guest/div/form/acl-input-container/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//acl-input-container/div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "71e1ee29-ee4e-4bc2-910f-69b661405c03",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//acl-dropdown[@id='global-header-account-menu-dropdown']/div[3]/div/global-header-account-menu-container/global-header-account-menu-guest/div/form/acl-input-container/div[2]/div/input",
+      "targets": [
+        ["id=id4828", "id"],
+        ["css=#id4828", "css:finder"],
+        ["xpath=//input[@id='id4828']", "xpath:attributes"],
+        ["xpath=//acl-dropdown[@id='global-header-account-menu-dropdown']/div[3]/div/global-header-account-menu-container/global-header-account-menu-guest/div/form/acl-input-container/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//acl-input-container/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "Williamsid99@gmail.com"
+    }, {
+      "id": "25d0f883-7d1e-461c-abac-fe22a23a65ee",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//acl-dropdown[@id='global-header-account-menu-dropdown']/div[3]/div/global-header-account-menu-container/global-header-account-menu-guest/div/form/acl-password-container/div[2]/div/input",
+      "targets": [
+        ["id=id1540", "id"],
+        ["css=#id1540", "css:finder"],
+        ["xpath=//input[@id='id1540']", "xpath:attributes"],
+        ["xpath=//acl-dropdown[@id='global-header-account-menu-dropdown']/div[3]/div/global-header-account-menu-container/global-header-account-menu-guest/div/form/acl-password-container/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//acl-password-container/div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c75de8ee-a82e-4c8a-b89b-b0e560098a55",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//acl-dropdown[@id='global-header-account-menu-dropdown']/div[3]/div/global-header-account-menu-container/global-header-account-menu-guest/div/form/acl-password-container/div[2]/div/input",
+      "targets": [
+        ["id=id1540", "id"],
+        ["css=#id1540", "css:finder"],
+        ["xpath=//input[@id='id1540']", "xpath:attributes"],
+        ["xpath=//acl-dropdown[@id='global-header-account-menu-dropdown']/div[3]/div/global-header-account-menu-container/global-header-account-menu-guest/div/form/acl-password-container/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//acl-password-container/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "seng637account"
+    }, {
+      "id": "6e61cf58-ff33-46d1-b055-23db9d2e7420",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-button--theme--primary",
+      "targets": [
+        ["css=.acl-button--theme--primary", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//acl-dropdown[@id='global-header-account-menu-dropdown']/div[3]/div/global-header-account-menu-container/global-header-account-menu-guest/div/form/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Sign In')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6e339644-6ae9-4002-abfa-aba05fcc4dee",
+      "comment": "",
+      "command": "waitForElementNotPresent",
+      "target": "css=.acl-alert__message",
+      "targets": [
+        ["css=.acl-alert__message", "css:finder"],
+        ["xpath=//acl-dropdown[@id='global-header-account-menu-dropdown']/div[3]/div/global-header-account-menu-container/global-header-account-menu-guest/div/div/section/header/div", "xpath:idRelative"],
+        ["xpath=//section/header/div", "xpath:position"]
+      ],
+      "value": "30000"
+    }]
+  }],
+  "suites": [{
+    "id": "121e905f-a890-4aa6-860a-c3302d1214a9",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["860410f7-f720-45a2-9517-6ac1bad32546"]
+  }],
+  "urls": ["https://www.homedepot.ca/"],
+  "plugins": []
+}

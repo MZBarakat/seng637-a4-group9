@@ -1,0 +1,173 @@
+{
+  "id": "281dce42-9872-4779-8b1c-2da1fb3c156b",
+  "version": "2.0",
+  "name": "Change store location",
+  "url": "https://www.homedepot.ca/",
+  "tests": [{
+    "id": "af28740d-d48e-4a71-8708-16d5e3147ae7",
+    "name": "Change store location from default to chinook store",
+    "commands": [{
+      "id": "e31b9baf-de67-4296-8e59-2c2d1ebefe39",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.homedepot.ca/en/home.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "83a905ea-8333-4735-a12c-f8e919fbb33a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-store-hours-menu__chevron > svg",
+      "targets": [
+        ["css=.acl-store-hours-menu__chevron > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "ce748da4-88b2-4765-ba16-0b49991a9cff",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Change Store",
+      "targets": [
+        ["linkText=Change Store", "linkText"],
+        ["css=.acl-store-info__link", "css:finder"],
+        ["xpath=//a[contains(text(),'Change Store')]", "xpath:link"],
+        ["xpath=//acl-dropdown[@id='global-header-store-hours-menu-dropdown']/div[3]/div/section/acl-store-info/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'javascript:void(0)')]", "xpath:href"],
+        ["xpath=//acl-store-info/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Change Store')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d12b1ddd-7a4c-4d21-9090-6d5fc76a64df",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hdca-store-list-item:nth-child(2) .acl-button--theme--primary > .acl-button__label",
+      "targets": [
+        ["css=.hdca-store-list-item:nth-child(2) .acl-button--theme--primary > .acl-button__label", "css:finder"],
+        ["xpath=//div[2]/div[3]/div/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "385b1aac-dcd2-4fcd-929d-9984964a16cb",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.acl-store-hours-menu__info-title",
+      "targets": [
+        ["css=.acl-store-hours-menu__info-title", "css:finder"],
+        ["xpath=//div[@id='acl-store-hours-menu__wrapper']/div[2]/h6", "xpath:idRelative"],
+        ["xpath=//h6", "xpath:position"],
+        ["xpath=//h6[contains(.,'Calgary North Hill')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e95a65c3-dd69-492a-a415-7171315e3411",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.acl-icon--size--medium use",
+      "targets": [
+        ["css=.acl-icon--size--medium use", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "ed8f1b2a-d7a8-4511-9dcc-cd17eda24b56",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=//input",
+      "targets": [
+        ["id=id8181", "id"],
+        ["css=#id8181", "css:finder"],
+        ["xpath=//input[@id='id8181']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "dd12ccda-05c2-407e-a8eb-153b822540f8",
+    "name": "Change store location from default to north hill store",
+    "commands": [{
+      "id": "8616dab1-8ae6-481a-a2a6-895da84557b1",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.homedepot.ca/en/home.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "879c2385-0486-45c1-a7b8-ee26618e501a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-store-hours-menu__chevron > svg",
+      "targets": [
+        ["css=.acl-store-hours-menu__chevron > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "89cf6ae7-e16e-43e1-92eb-58441bb10181",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Change Store",
+      "targets": [
+        ["linkText=Change Store", "linkText"],
+        ["css=.acl-store-info__link", "css:finder"],
+        ["xpath=//a[contains(text(),'Change Store')]", "xpath:link"],
+        ["xpath=//acl-dropdown[@id='global-header-store-hours-menu-dropdown']/div[3]/div/section/acl-store-info/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'javascript:void(0)')]", "xpath:href"],
+        ["xpath=//acl-store-info/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Change Store')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d05541dc-29ae-463e-acde-6ef86c860dfe",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hdca-store-list-item:nth-child(2) .acl-button--theme--primary > .acl-button__label",
+      "targets": [
+        ["css=.hdca-store-list-item:nth-child(2) .acl-button--theme--primary > .acl-button__label", "css:finder"],
+        ["xpath=//div[2]/div[3]/div/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5cd48bf8-1d90-4e10-ad6e-de92cc8e3365",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.acl-store-hours-menu__info-title",
+      "targets": [
+        ["css=.acl-store-hours-menu__info-title", "css:finder"],
+        ["xpath=//div[@id='acl-store-hours-menu__wrapper']/div[2]/h6", "xpath:idRelative"],
+        ["xpath=//h6", "xpath:position"],
+        ["xpath=//h6[contains(.,'Calgary North Hill')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b8e47ee5-58ba-473b-a839-56fd031d5e3a",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.acl-icon--size--medium use",
+      "targets": [
+        ["css=.acl-icon--size--medium use", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "f01d12d3-cac9-4957-8fcf-d2214d489c7c",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=//input",
+      "targets": [
+        ["id=id8181", "id"],
+        ["css=#id8181", "css:finder"],
+        ["xpath=//input[@id='id8181']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "2372ed32-e873-4b59-9a96-3700e9970161",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["af28740d-d48e-4a71-8708-16d5e3147ae7"]
+  }],
+  "urls": ["https://www.homedepot.ca/"],
+  "plugins": []
+}

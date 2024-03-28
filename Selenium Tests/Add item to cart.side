@@ -1,0 +1,235 @@
+{
+  "id": "b39d8253-3eea-4687-b794-bbe2e0aee3ad",
+  "version": "2.0",
+  "name": "Add item to cart",
+  "url": "https://www.homedepot.ca/",
+  "tests": [{
+    "id": "24034448-7cbb-42a6-b94b-5f4dda9456cf",
+    "name": "Add Husky 16 lb. Sledge Hammer, SKU# 1001022652 to cart",
+    "commands": [{
+      "id": "227467d0-f0e3-4f8c-a0e5-e9e7c36203c7",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.homedepot.ca/en/home.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8863af49-30e6-4528-b945-353be0b4c38c",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//input",
+      "targets": [
+        ["id=id8815", "id"],
+        ["css=#id8815", "css:finder"],
+        ["xpath=//input[@id='id8815']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "620cddf3-9c40-45cb-aca1-a485bfcf04d9",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//input",
+      "targets": [
+        ["id=id8815", "id"],
+        ["css=#id8815", "css:finder"],
+        ["xpath=//input[@id='id8815']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "1001022652"
+    }, {
+      "id": "c2067476-d469-4375-88b4-235ae4203446",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-action-button__icon > svg",
+      "targets": [
+        ["css=.acl-action-button__icon > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "c33c9bed-2140-4c21-8a97-7dfbaa8ca054",
+      "comment": "",
+      "command": "click",
+      "target": "id=product-atc",
+      "targets": [
+        ["id=product-atc", "id"],
+        ["css=#product-atc", "css:finder"],
+        ["xpath=//button[@id='product-atc']", "xpath:attributes"],
+        ["xpath=//div[@id='productFulfillmentStickyATC']/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Add To Cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "783b6007-8563-48cf-a555-9c51ac6d5e3a",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[@id='topOfPanelRef']/div[3]/div/div[2]/button",
+      "targets": [
+        ["css=.acl-button:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='topOfPanelRef']/div[3]/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'View Cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ad8901a5-340e-4409-92a2-33026e899cff",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Cart | Home Depot Canada",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "13fb0e0b-2d85-431c-ae57-ca63e4b5ffec",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.acl-line-limit--3 > .acl-weight--bold",
+      "targets": [
+        ["css=.acl-line-limit--3 > .acl-weight--bold", "css:finder"],
+        ["xpath=//h3/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Husky')]", "xpath:innerText"]
+      ],
+      "value": "Husky"
+    }, {
+      "id": "79424ddd-437b-4823-b18e-04ecd43142de",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=a > .acl-icon--size--medium use",
+      "targets": [
+        ["css=a > .acl-icon--size--medium use", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "df17baa1-9bb2-4d73-9167-95d561fffa1b",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=//input",
+      "targets": [
+        ["id=id1727", "id"],
+        ["css=#id1727", "css:finder"],
+        ["xpath=//input[@id='id1727']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "43bc0536-1bf2-49af-9069-6a3b443fcb18",
+    "name": "Add Chamberlain 3/4 HP, SKU# 1001631246 to cart",
+    "commands": [{
+      "id": "6e59230f-d9d8-4957-af3a-153ac9d7d547",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.homedepot.ca/en/home.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "64d8be73-2803-43d8-9149-ad59d66f78b2",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//input",
+      "targets": [
+        ["id=id8815", "id"],
+        ["css=#id8815", "css:finder"],
+        ["xpath=//input[@id='id8815']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6475a570-a902-4240-b3db-79a329cf98fb",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//input",
+      "targets": [
+        ["id=id8815", "id"],
+        ["css=#id8815", "css:finder"],
+        ["xpath=//input[@id='id8815']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "1001631246"
+    }, {
+      "id": "8c58955f-cdd9-4013-9b52-f37b0b0bc2a5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-action-button__icon > svg",
+      "targets": [
+        ["css=.acl-action-button__icon > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "474359ef-edc3-48f4-bbb0-fcb73af1de21",
+      "comment": "",
+      "command": "click",
+      "target": "id=product-atc",
+      "targets": [
+        ["id=product-atc", "id"],
+        ["css=#product-atc", "css:finder"],
+        ["xpath=//button[@id='product-atc']", "xpath:attributes"],
+        ["xpath=//div[@id='productFulfillmentStickyATC']/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Add To Cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "50b923ee-d41b-43e4-9d72-d90ffe98b36b",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[@id='topOfPanelRef']/div[3]/div/div[2]/button",
+      "targets": [
+        ["css=.acl-button:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='topOfPanelRef']/div[3]/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'View Cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cce6215a-aede-40b3-a12f-e3b670905229",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Cart | Home Depot Canada",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4ebc0dd1-168d-4ae6-a68e-b632e89cef6b",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.acl-line-limit--3 > .acl-weight--bold",
+      "targets": [
+        ["css=.acl-line-limit--3 > .acl-weight--bold", "css:finder"],
+        ["xpath=//h3/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Husky')]", "xpath:innerText"]
+      ],
+      "value": "Chamberlain"
+    }, {
+      "id": "0e758f93-f031-4e94-97ba-af3da9bc4385",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=a > .acl-icon--size--medium use",
+      "targets": [
+        ["css=a > .acl-icon--size--medium use", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "e50a0cf2-6de2-49ee-b82b-2f8e3cfaf73a",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=//input",
+      "targets": [
+        ["id=id1727", "id"],
+        ["css=#id1727", "css:finder"],
+        ["xpath=//input[@id='id1727']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "41f43f3b-96dc-4c49-98fe-e102534506e0",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["24034448-7cbb-42a6-b94b-5f4dda9456cf"]
+  }],
+  "urls": ["https://www.homedepot.ca/"],
+  "plugins": []
+}

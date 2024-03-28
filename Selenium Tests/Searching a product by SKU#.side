@@ -1,0 +1,175 @@
+{
+  "id": "6d4f7e1e-d0e0-48a7-9866-5c3fe28bba6c",
+  "version": "2.0",
+  "name": "Searching a product by SKU#",
+  "url": "https://www.homedepot.ca/",
+  "tests": [{
+    "id": "b3a69d24-8a1f-456f-b19c-cc9565543eee",
+    "name": "Search for SKU# 1001022652",
+    "commands": [{
+      "id": "7a6c55de-a4ad-479c-abb2-12857b97574f",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.homedepot.ca/en/home.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8e5c49f0-923c-4d59-a61d-008fca6772d6",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//input",
+      "targets": [
+        ["id=id7097", "id"],
+        ["css=#id7097", "css:finder"],
+        ["xpath=//input[@id='id7097']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6bbe0f86-b062-4366-9bcf-034d06b0ab1f",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//input",
+      "targets": [
+        ["id=id7097", "id"],
+        ["css=#id7097", "css:finder"],
+        ["xpath=//input[@id='id7097']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "1001022652"
+    }, {
+      "id": "d24d77ed-61f2-4e3b-86dc-c42d74702dd4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-action-button",
+      "targets": [
+        ["css=.acl-action-button", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//acl-input-action-button-container/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Submit Search')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6320cb6e-ea58-4275-abfa-a92c3a0e2dfd",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.hdca-product__description-product-detail-sku",
+      "targets": [
+        ["css=.hdca-product__description-product-detail-sku", "css:finder"],
+        ["xpath=//span[3]", "xpath:position"],
+        ["xpath=//span[contains(.,'Store SKU # 1001022652')]", "xpath:innerText"]
+      ],
+      "value": "Store SKU # 1001022652"
+    }, {
+      "id": "65e117ba-394a-47ce-aff7-a5991961a7ef",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.acl-icon--size--medium use",
+      "targets": [
+        ["css=.acl-icon--size--medium use", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "dca7bad8-3da8-4555-b08c-87d51088bd99",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=//input",
+      "targets": [
+        ["id=id8574", "id"],
+        ["css=#id8574", "css:finder"],
+        ["xpath=//input[@id='id8574']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "bce962d5-87d7-4eb3-8263-cad0f90f96b5",
+    "name": "Search for SKU# 1001631246",
+    "commands": [{
+      "id": "2a86db0b-b17e-4427-81aa-3ac640b92293",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.homedepot.ca/en/home.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "95760b3c-5179-445c-ac41-d725064ec35e",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//input",
+      "targets": [
+        ["id=id7097", "id"],
+        ["css=#id7097", "css:finder"],
+        ["xpath=//input[@id='id7097']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fdb39c7e-f3ed-4fb1-9bbc-ae489c536adc",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//input",
+      "targets": [
+        ["id=id7097", "id"],
+        ["css=#id7097", "css:finder"],
+        ["xpath=//input[@id='id7097']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "1001631246"
+    }, {
+      "id": "42cfd788-8fad-468d-b066-78355483b2cb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-action-button",
+      "targets": [
+        ["css=.acl-action-button", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//acl-input-action-button-container/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Submit Search')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0f8087b4-be87-4333-9c26-4b3229fd2327",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.hdca-product__description-product-detail-sku",
+      "targets": [
+        ["css=.hdca-product__description-product-detail-sku", "css:finder"],
+        ["xpath=//span[3]", "xpath:position"],
+        ["xpath=//span[contains(.,'Store SKU # 1001022652')]", "xpath:innerText"]
+      ],
+      "value": "Store SKU # 1001631246"
+    }, {
+      "id": "ea521c69-0a20-49f1-9161-1b66df757e9e",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.acl-icon--size--medium use",
+      "targets": [
+        ["css=.acl-icon--size--medium use", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "d945418f-2ec2-4792-a94a-d1d04e8f2c7a",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=//input",
+      "targets": [
+        ["id=id8574", "id"],
+        ["css=#id8574", "css:finder"],
+        ["xpath=//input[@id='id8574']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "f00b5e5f-9fb1-4ba2-a043-283aef494329",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["b3a69d24-8a1f-456f-b19c-cc9565543eee"]
+  }],
+  "urls": ["https://www.homedepot.ca/"],
+  "plugins": []
+}
